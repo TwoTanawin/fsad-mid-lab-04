@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Paper authors" %>
+
+<h1>Paper authors</h1>
+
+<div id="paper_authors">
+  <% @paper_authors.each do |paper_author| %>
+    <%= render paper_author %>
+    <p>
+      <%= link_to "Show this paper author", paper_author %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New paper author", new_paper_author_path %>

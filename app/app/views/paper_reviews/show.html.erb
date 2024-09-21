@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @paper_review %>
+
+<div>
+  <%= link_to "Edit this paper review", edit_paper_review_path(@paper_review) %> |
+  <%= link_to "Back to paper reviews", paper_reviews_path %>
+
+  <%= button_to "Destroy this paper review", @paper_review, method: :delete %>
+</div>

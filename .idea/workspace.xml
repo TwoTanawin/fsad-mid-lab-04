@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fad3cc57-748e-477d-8051-fc5ef103cc74" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/models/application_record.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/models/application_record.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/models/concerns/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/models/concerns/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/db/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2mNvjs9mneo2B4x5efSEu1syBM6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/two-mac/Documents/ait/fsad/mid/lab_03",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lab_03/app/coverage/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-RM-242.22855.77" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fad3cc57-748e-477d-8051-fc5ef103cc74" name="Changes" comment="" />
+      <created>1726929986354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726929986354</updated>
+      <workItem from="1726929987450" duration="5664000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

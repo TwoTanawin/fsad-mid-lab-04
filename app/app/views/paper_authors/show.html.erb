@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @paper_author %>
+
+<div>
+  <%= link_to "Edit this paper author", edit_paper_author_path(@paper_author) %> |
+  <%= link_to "Back to paper authors", paper_authors_path %>
+
+  <%= button_to "Destroy this paper author", @paper_author, method: :delete %>
+</div>

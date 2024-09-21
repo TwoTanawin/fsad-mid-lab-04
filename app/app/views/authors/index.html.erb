@@ -1,0 +1,82 @@
+<h1>Authors and Related Data</h1>
+
+<!-- Authors Table -->
+<h2>Authors</h2>
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Committee Member</th>
+    <th>Papers Written</th>
+  </tr>
+  <% @authors.each do |author| %>
+    <tr>
+      <td><%= author.name %></td>
+      <td><%= author.is_committee ? "Yes" : "No" %></td>
+      <td>
+        <ul>
+          <% author.papers.each do |paper| %>
+            <li><%= link_to paper.title, paper_path(paper) %></li>
+          <% end %>
+        </ul>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
+<!-- Papers Table -->
+<h2>Papers</h2>
+<table border="1">
+  <tr>
+    <th>Title</th>
+    <th>Authors</th>
+    <th>Keywords</th>
+    <th>Status</th>
+    <th>Reviews</th>
+  </tr>
+  <% @papers.each do |paper| %>
+    <tr>
+      <td><%= paper.title %></td>
+      <td>
+        <ul>
+          <% paper.authors.each do |author| %>
+            <li><%= link_to author.name, author_path(author) %></li>
+          <% end %>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <% paper.keywords.each do |keyword| %>
+            <li><%= keyword.keyword %></li>
+          <% end %>
+        </ul>
+      </td>
+      <td><%= paper.status&.is_rejected ? "Rejected" : "Accepted" %></td>
+      <td>
+        <ul>
+          <% paper.paper_reviews.each do |review| %>
+            <li><%= review.review %> - Rating: <%= review.rating %></li>
+          <% end %>
+        </ul>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
+<!-- Paper Reviews Table -->
+<h2>Paper Reviews</h2>
+<table border="1">
+  <tr>
+    <th>Paper Title</th>
+    <th>Reviewer</th>
+    <th>Review</th>
+    <th>Rating</th>
+  </tr>
+  <% @reviews.each do |review| %>
+    <tr>
+      <td><%= link_to review.paper.title, paper_path(review.paper) %></td>
+      <td><%= link_to review.author.name, author_path(review.author) %></td>
+      <td><%= review.review %></td>
+      <td><%= review.rating %></td>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,12 @@
+<% content_for :title, "Editing paper author" %>
+
+<h1>Editing paper author</h1>
+
+<%= render "form", paper_author: @paper_author %>
+
+<br>
+
+<div>
+  <%= link_to "Show this paper author", @paper_author %> |
+  <%= link_to "Back to paper authors", paper_authors_path %>
+</div>
